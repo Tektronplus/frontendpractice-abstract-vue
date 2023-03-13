@@ -1,14 +1,14 @@
 <template>
 	<div>
-		<HelpSeeker />
+		<HomePage />
 	</div>
 </template>
 
 <script>
-import HelpSeeker from "./HelpSeeker.vue";
+import HomePage from "./pages/Home-page/HomePage.vue";
 export default {
 	components: {
-		HelpSeeker,
+		HomePage,
 	},
 };
 </script>

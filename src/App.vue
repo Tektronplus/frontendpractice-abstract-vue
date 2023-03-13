@@ -29,7 +29,7 @@ body {
 
 .my-layout {
 	display: grid;
-	grid-template-rows: 88px 500px 200px;
+	grid-template-rows: 88px 1fr 200px;
 	grid-template-columns: 1fr;
 	grid-template-areas:
 		"header"
